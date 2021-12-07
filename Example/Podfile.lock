@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JamTimer (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JamTimer (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JamTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JamTimer: 2b520602203da5695e346ed62c745123bf713394
+
+PODFILE CHECKSUM: 4b3d5010ab26c2523bd7bd628269445788b0eec0
+
+COCOAPODS: 1.9.1
